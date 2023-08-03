@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false 
-      max-parallel: 2  
+      max-parallel: 1  
       matrix:
         # Replace the following with the keyboard you want to setup.  
         # Only 1 keyboard is supported.  For more keyboards, copy and rename this file.
